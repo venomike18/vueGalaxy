@@ -11,8 +11,6 @@ const app = Vue.createApp({
                 'border-radius': '15px'
             },
 
-
-
             imageSource: './media/sample.jpg',
             classObject: {
                 centered: true,
