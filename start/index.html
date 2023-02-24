@@ -22,6 +22,9 @@
         <img v-bind:src="imageSource" /> 
         <div :class="classObject">Hello, Vue!</div>
         <div :style="styleObject">Hello, Vue!</div>
+        <!-- ciclo vfor -->
+        <li v-for="(name, index) in names" :key="index">{{ name }}</div>
+
     </div>
 
 

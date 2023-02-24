@@ -1,6 +1,11 @@
 const app = Vue.createApp({
     data() {
         return {
+            
+            //test v-for
+            names: ['Susan', 'Peter', 'Bill' ],
+
+
             productName: 'Book a Cruise to the Moon',
             productDescription: 'Cruise to the moon in our luxurious shuttle. Watch the astronauts working outside the International Space Station.',
             
@@ -15,9 +20,10 @@ const app = Vue.createApp({
             classObject: {
                 centered: true,
                 active: true
+            
             },
             styleObject: {
-                'background-color': 'red'
+                'background-color': 'cyan',
             }
         }
     },
